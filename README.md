@@ -1,7 +1,7 @@
 # Hi, I'm ZiyangFeng 👋
 *Also known as ZY-ZzziYang*
 
-I'm a software developer passionate about **C#**, **Python**, and **LIMS automation**.  
+I'm a software developer passionate about **C#**, **Python**, and **C++**.  
 I enjoy building efficient workflows, parsing Excel files, and automating lab operations.
 
 ---
@@ -14,7 +14,6 @@ I enjoy building efficient workflows, parsing Excel files, and automating lab op
 ## 🛠 Skills & Tools
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
@@ -24,10 +23,7 @@ I enjoy building efficient workflows, parsing Excel files, and automating lab op
 ## 🚀 Featured Projects
 | Project | Description |
 | ------- | ----------- |
-| [LIMS Automation](https://github.com/ZiyangFeng/lims-automation) | Automate pipetting workflows with C# and Python |
-| [Excel Parser](https://github.com/ZiyangFeng/excel-parser) | Efficient parsing and processing of Excel files |
 | [TipBoxHelper](https://github.com/ZiyangFeng/tipbox-helper) | Analyze tip-box usage and automate replenishment logic |
-| Add more | Add your project descriptions here |
 
 ---
 
@@ -58,7 +54,7 @@ I enjoy building efficient workflows, parsing Excel files, and automating lab op
 ---
 
 ## 📫 Contact Me
-[LinkedIn](https://linkedin.com/in/your-linkedin) | [Email](mailto:youremail@example.com) | [Blog](https://yourblog.com)
+[Email](mailto:feng_ziyang2021@163.com)
 
 ---
 
