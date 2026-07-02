@@ -1,29 +1,28 @@
+from pathlib import Path
 import random
+
 from jinja2 import Template
 
-# 1. 定义每日问候语列表
-greetings = [
-    "Hello! Have a productive day! 🌞",
-    "Keep coding and stay awesome! 💻",
-    "New day, new opportunities! 🚀",
-    "Keep pushing forward! 🔥",
-    "Time to create something amazing! ✨"
+
+ROOT = Path(__file__).resolve().parents[1]
+TEMPLATE_PATH = ROOT / "README_TEMPLATE.md"
+README_PATH = ROOT / "README.md"
+
+GREETINGS = [
+    "Keep coding and make the workflow smoother.",
+    "Build one reliable tool, then let it save time every day.",
+    "Small automations compound into big wins.",
+    "Turn repetitive work into a button.",
+    "Make the lab workflow cleaner than yesterday.",
 ]
 
-# 2. 读取模板
-with open("README_TEMPLATE.md", "r", encoding="utf-8") as f:
-    template_content = f.read()
 
-template = Template(template_content)
+def main() -> None:
+    template = Template(TEMPLATE_PATH.read_text(encoding="utf-8"))
+    rendered = template.render(greeting=random.choice(GREETINGS))
+    README_PATH.write_text(rendered, encoding="utf-8")
+    print("README.md updated from README_TEMPLATE.md.")
 
-# 3. 随机选择问候语
-greeting_today = random.choice(greetings)
 
-# 4. 渲染模板
-rendered = template.render(greeting=greeting_today)
-
-# 5. 写入 README.md
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(rendered)
-
-print("README.md updated with today's greeting.")
+if __name__ == "__main__":
+    main()
