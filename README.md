@@ -15,7 +15,7 @@ Hi, I am **Ziyang Feng**, also known as **ZY-ZzziYang**.
 
 I build practical software around **lab automation**, **Excel data processing**, and **workflow optimization**. I like tools that are stable, fast, and boring in the best possible way: they save time every day and quietly remove repetitive work.
 
-> Today: Turn repetitive work into a button.
+> Today: Build one reliable tool, then let it save time every day.
 
 ## Tech Stack
 
